@@ -1,0 +1,22 @@
+<html>
+<head>
+    <title>Garage inc</title>
+</head>
+<body>
+    <center><img src="image.png"style=width:700px;
+    height:auto;" /></center>
+    <h2>MENU</h2>
+    <p><button>Targa</button></p>
+    <p><button>Roadster</button></p>
+    <p><button>Hipercarros</button></p>
+
+
+    
+    <h2>COMO FUNCIONAM OS CARROS ESPORTIVOS</h2>
+    <p>Motor Os motores dos carros esportivos ficam localizados na parte entre-eixos ou central, o que gera mais tração, velocidade e distribui melhor o peso dos veículos. ...
+        Espaço interno Os carros esportivos têm um espaço interno maior, inclusive, para o porta-malas. ...
+        Design Um carro esportivo costuma chamar atenção do público e, por isso, é produzido com uma carroceria mais robusta e forte. ...
+        </p>
+        
+</body>
+</html>
