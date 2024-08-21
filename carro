@@ -1,22 +1,30 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Garage inc</title>
+<link rel= "stylesheet" type= "text/css" href="nicole.css">
 </head>
-<body>
-    <center><img src="image.png"style=width:700px;
-    height:auto;" /></center>
+
+<div class="foto-container">
     <h2>MENU</h2>
+
+    <img src="imagens/image copy.png" alt="Descrição da foto"
+    width="600px" height="300px/>"div>
+    <p class="foto-texto">Um veículo targa é um tipo específico de conversível, que tem parte do teto (geralmente rígido) removível, deixando à mostra uma estrutura traseira, a roll bar, que funciona como barra contra capotamentos.</p>
     <p><button>Targa</button></p>
-    <p><button>Roadster</button></p>
+
+    <img src="imagens/image.png" alt="descrição da foto"
+    width="600px" height="300px/>"div>
+    <p class="foto-texto">São os supercarros do próximo nível. Eles estão um degrau acima do supercarros em termos de design, motor e desempenho geral.
     <p><button>Hipercarros</button></p>
 
+    <img src="segundimg.png" alt="descrição da foto"
+    width="600px" height="300px/>"div>
+    <p class="foto-texto">Os roadsters são tipicamente carros de dois lugares com um design esportivo e ênfase na condução ao ar livre. Eles geralmente têm um teto conversível e são conhecidos por seu manuseio ágil e estética elegante.
+    <p><button>Roadster</button></p>
 
-    
-    <h2>COMO FUNCIONAM OS CARROS ESPORTIVOS</h2>
-    <p>Motor Os motores dos carros esportivos ficam localizados na parte entre-eixos ou central, o que gera mais tração, velocidade e distribui melhor o peso dos veículos. ...
-        Espaço interno Os carros esportivos têm um espaço interno maior, inclusive, para o porta-malas. ...
-        Design Um carro esportivo costuma chamar atenção do público e, por isso, é produzido com uma carroceria mais robusta e forte. ...
-        </p>
-        
+</div>
 </body>
 </html>
