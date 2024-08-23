@@ -28,3 +28,135 @@
 </div>
 </body>
 </html>
+
+
+
+
+*{
+    margin: 0;
+    padding:0;
+}
+
+header{
+    background-color: blue;
+    align-items: center;
+    padding: 80px;
+}
+
+body{
+    text-align: center;
+    background-image: url('fundo.png');
+    background-repeat: no-repeat;
+    background-size:20000px ;
+}
+
+foto-container{
+    margin: 20px;
+    max-width: 100%;
+    height: auto;
+    border: 1px;
+}
+
+foto-texto{
+    margin-top: 10px;
+    height: 1000px;
+    width: 90;
+    font-size: 200px;
+    line-height: 2rem;
+    max-width: 500px;
+    margin: auto;
+}
+
+h2{
+    color: #e40e0e;
+}
+
+imagem-container{
+    margin: 20px;
+    max-width: 100%;
+    height: auto;
+    border: 1px;
+}
+
+imagem-texto{
+    margin-top: 10px;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    max-width:  50rem;
+    margin:auto;
+}
+
+intro{
+    background-color: aquamarine;
+    text-align:center;
+    padding: 5rem 0;
+    margin:20px;
+}
+ 
+intro box{
+    max-width: 50rem;
+    margin: auto;
+    padding: 1rem;
+}
+
+intro title{
+    font-weight: bold;
+    font-size: 7rem;
+    margin-bottom:6rem;
+    color:darkorange;
+}
+
+button{
+    background-color: hsl(226, 100%, 54%);
+    font-size: 15px;
+    color:aliceblue;
+    padding: 200 x 400px;
+    text-align:center;
+    text-decoration: none;
+    display: inline-block;
+    height: 30px;
+    width: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Garage inc</title>
+<link rel= "stylesheet" type= "text/css" href="nicole.css">
+</head>
+<body>
+<div class="foto-container">
+    <h2>CARROS ESPORTIVOS</h2>
+
+    <img src="image.png" alt="Descrição da foto"
+    width="600px" height="300px/>"div>
+    <p class="foto-texto">Um veículo targa é um tipo específico de conversível, que tem parte do teto (geralmente rígido) removível, deixando à mostra uma estrutura traseira, a roll bar, que funciona como barra contra capotamentos.</p>
+    <p><button>Targa</button></p>
+
+    <img src= "carro.jpg" alt="descrição da foto"
+    width="600px" height="300px/>"div>
+    <p class="foto-texto">São os supercarros do próximo nível. Eles estão um degrau acima do supercarros em termos de design, motor e desempenho geral.
+    <p><button>Hipercarros</button></p>
+
+    <img src="foto2.png" alt="descrição da foto"
+    width="600px" height="300px/>"div>
+    <p class="foto-texto">Os roadsters são tipicamente carros de dois lugares com um design esportivo e ênfase na condução ao ar livre. Eles geralmente têm um teto conversível e são conhecidos por seu manuseio ágil e estética elegante.
+    <p class="botão"><button>Roadster</button></p>
+    
+
+</div>
+</body>
+</html>
+
