@@ -1,0 +1,140 @@
+* {
+    margin: 0;/*margem*/
+    padding: 0;/*preenchimento*/
+    box-sizing: content-box;/*dimencionamento de caixa = caixa de borda*/
+}
+
+/* Estilo do corpo da página */
+body {
+    font-family: Arial, sans-serif;/*família da fonte*/
+    background-color: #f4f4f4; /*fundo*/
+    color: #333;/*cor*/
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #333;/*cor de fundo*/
+    color: #fff;/*cor*/
+    padding: 20px;/*preenchimento*/
+    text-align: center;/*alinhamento de texto ´- centralizar*/
+}
+
+/* Estilo do container de fotos */
+.foto-container {
+    display: flex;/*exibição´-flexível*/
+    flex-wrap: wrap;/*envolver*/
+    justify-content:space-around;/*justificar conteúdo´- espaço ao redor*/
+    padding: 20px;/*preenchimento*/
+}
+
+/* Estilo de cada bloco de foto */
+.foto-container > div {
+    background-color: #fff;/*cor de fundo*/
+    border-radius: 8px;/*raio da borda*/
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);/*caixa sombra*/
+    margin: 10px;/*margem*/
+    padding: 10px;/*preenchimento*/
+    max-width: 600px;/*largura máxima*/
+    text-align: center;/*alinhamento de texto ´- centralizar*/
+}
+
+/* Estilo das imagens */
+img {
+    border-radius: 8px;/*raio da borda*/
+    max-width: 100%;/*largura máxima*/
+    height: auto;/*altura ´- automático*/
+}
+
+/* Estilo do texto das fotos */
+.foto-texto {
+    margin: 10px 0;/*margem*/
+    font-size: 16px;/*tamanho da fonte*/
+    line-height: 1.5;/*altura da linha*/
+}
+
+/* Estilo dos botões */
+button {
+    background-color: #007bff;/*cor de fundo*/
+    border: none;/*borda*/
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+/* Efeito ao passar o mouse sobre os botões */
+button:hover {
+    background-color: #0056b3;
+}
+
+HTML
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Garage inc</title>
+<link rel= "stylesheet" type= "text/css" href="nicole.css">
+</head>
+<body>
+
+<header>
+    <h2>CARROS ESPORTIVOS</h2>
+</header>
+
+<div class="foto-container">
+    
+<div>
+    <img src="imagens/image copy.png" alt="Descrição da foto"
+    width="600px" height="300px/>"div>
+    <p class="foto-texto">Um veículo targa é um tipo específico de conversível, que tem parte do teto (geralmente rígido) removível, deixando à mostra uma estrutura traseira, a roll bar, que funciona como barra contra capotamentos.</p>
+    </p><button>Targa</button></p>
+</div>
+
+<div>
+    <img src="imagens/image.png" alt="descrição da foto"
+    width="600px" height="300px/>"div>
+    <p class="foto-texto">São os supercarros do próximo nível. Eles estão um degrau acima do supercarros em termos de design, motor e desempenho geral.
+    <p><button>Hipercarros</button></p>
+</div>
+
+<div>
+    <img src="segundimg.png" alt="descrição da foto"
+    width="600px" height="300px/>"div>
+    <p class="foto-texto">Os roadsters são tipicamente carros de dois lugares com um design esportivo e ênfase na condução ao ar livre. Eles geralmente têm um teto conversível e são conhecidos por seu manuseio ágil e estética elegante.
+    <p><button>Roadster</button></p>
+</div>
+<table>
+    <tr>
+       <th>Tipos de carros</td> 
+       <th>Preços</td>
+    </tr>
+
+    <tr>
+        <td>Targa</td>
+        <td>R$ 1.145.000</td>
+    </tr>
+
+    <tr>
+        <td>Hipercarros</td>
+        <td>R$ 33.000.000</td>
+    </tr>
+
+    <tr>
+        <td>Roadster</td>
+        <td>R$ 2.000.000</td>
+    </tr>
+
+
+
+</table>
+
+</div>
+</body>
+</html>
